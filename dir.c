@@ -76,4 +76,10 @@ int main() {
   printf("Size of Directory \"folder\": %d Bytes\n", size);
 
   ls("folder");
+
+  printf("Statistics for directory: \".\"\n");
+  size = get_dir_size(".");
+  printf("Size of Directory \".\": %d Bytes\n", size);
+
+  ls(".");
 }
