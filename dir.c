@@ -71,6 +71,7 @@ int get_dir_size(char path[64]) {
 
 int main() {
   int size;
+  printf("Statistics for directory: \"folder\"\n");
   size = get_dir_size("folder");
   printf("Size of Directory \"folder\": %d Bytes\n", size);
 
